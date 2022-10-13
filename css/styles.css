@@ -1,3 +1,7 @@
 * {
   font-family: 'Calibri';
 }
+
+p {
+  border-width: medium;
+}
