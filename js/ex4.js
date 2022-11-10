@@ -3,11 +3,12 @@
 const addLink = () => {
   const newLink = document.createElement("li");
   newLink.id = "cob"
-  newLink.textContent = "College of Business"
+  const a = document.createElement("a");
+  const aText = document.createTextNode("College of Business");
+  a.appendChild(aText);
+  a.href = "https://www.csulb.edu/college-of-business";
   document.getElementById("links").insertBefore(newLink, document.getElementById("is"));
-  document.getElementById("cob").href = "https://www.csulb.edu/college-of-business";
+  newLink.appendChild(a);
 }
 
 addLink();
-
-// NOT COMPLETED

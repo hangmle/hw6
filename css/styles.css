@@ -2,6 +2,14 @@
   font-family: 'Calibri';
 }
 
-p {
-  border-width: medium;
+table, tr, td {
+  border: solid 1px black;
+}
+
+td {
+  text-align: center;
+}
+
+.div4blue {
+  background-color: rgb(189, 214, 236);
 }
